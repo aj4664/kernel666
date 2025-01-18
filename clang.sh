@@ -1,7 +1,7 @@
 #! /bin/bash
 #env
-export ARCH=arm64
-export SUBARCH=arm64
+export ARCH=arm32
+export SUBARCH=arm32
 export PATH="/root/clang/bin:/root/Toolchain/gcc64/bin:/root/Toolchain/gcc32/bin:$PATH"
 
 args="-j$(nproc --all) \
